@@ -91,12 +91,31 @@ header {
 }
 
 .xbox {
-    height: 125px;
+    height: 190px;
     width: 25%;
     padding: 30px;
-    border: 2px solid rgb(92, 88, 88);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: inline-block;
     margin-bottom: 40px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.xbox img{
+    width: 100px;
+    height: 60px;
+
+}
+.xbox h4{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+.services h1{
+    text-align: center;
+    margin-top: 90px;
 }
 
 .estimation {
