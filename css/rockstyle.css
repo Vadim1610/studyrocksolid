@@ -1,7 +1,4 @@
-body {
-    padding-left: 10%;
-    padding-right: 10%;
-}
+
 
 .header {
     padding-left: 100px;
@@ -113,24 +110,27 @@ header {
     font-weight: bold;
     font-size: 21px;
 }
+.services{
+    padding: 0 300px;
+}
 .services h1{
     text-align: center;
     margin-top: 90px;
 }
 
 .estimation {
-    background-color: rgb(197, 188, 238);
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 10%;
+    width: 80%;
+    background-color: #f0effa;
+    height: 600px;
     display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: center; 
 }
 
-.knop {
+.button {
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -138,16 +138,98 @@ header {
 	align-items: center;
 }
 
-.knop input {
-    width: 420px;
-    height: 40px;
+.button_img{
+    margin-top: 140px;
+    margin-left: 140px;
 }
 
-.knopimg {
+.design_text{
+    width: 530px;
+    font-size: 36px;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+
+.owner{
+    color: #777;
+    font-size: 12px;
+}
+
+.design_form_checkbox{
+    position: relative;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: wheat;
+}
+
+.design_form_input{
+    width: 84%;
+    height: 21px;
+    padding: 12.5px 30px;
+    margin-top: 18px;
+}
+.design_form_submit{
+    color: white;
+    background-color: orange;
+    outline: none;
+    border: 1px solid orange;
+    margin-top: 10px;
+    position: relative;
+    width: 170px;
+    height: 60px;
+}
+.design_form_submit:hover{
+    color: orange;
+    background-color: white;
+}
+
+.studies{
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-end;
-	align-content: space-around;
+    width: 80%;
+    margin: auto;
+    background-color: #f5f6fc;
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+}
+.case_studies{
+
+    color: darkgray;
+    padding-bottom: 35px;
+    font-size: 17px;
+    margin: 30px 30px 30px 70px;
+}
+
+.studies_img{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 20px;
+    width: 320px;
+    height: 430px;
+    background-color: white;
+    text-align: center;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+}
+
+.studies_img_2{
+    margin-top: 100px;
+    width: 320px;
+    height: 430px;
+    background-color: white;
+    text-align: center;
+    -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
 }
